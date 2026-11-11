@@ -24,7 +24,7 @@ inside this repository.
 
 Open this repository in Claude Code (or another coding agent) and say:
 
-> Read PRD.md and AGENTS.md, then build milestone 1. Keep the policy a dry run: never set "live" yourself.
+> Read PRD.md and AGENTS.md. The fighter already plays: run npm test and npm run practice, then help me with milestone 3, a choosePull of our own. Keep the policy a dry run: never set "live" yourself.
 
 The agent works through `PRD.md`'s milestones. Highwire's tools are already wired in through `.mcp.json`. Everything is a
 dry run until you change the policy yourself.

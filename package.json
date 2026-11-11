@@ -13,7 +13,10 @@
     "highwire": "node scripts/highwire.mjs",
     "orders": "node scripts/highwire.mjs orders run",
     "agent": "tsx src/agent.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts",
+    "practice": "tsx src/practice.ts",
+    "launch": "tsx src/launch.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.32.1",
